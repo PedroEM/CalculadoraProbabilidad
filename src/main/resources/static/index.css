@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, red,orange,yellow)round;
+}
+
+main {
+    margin: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10vw;
+    border: 1px solid black;
+}
+
+button {
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 30%;
+    margin: 1.2vh;
+    padding: 1.2vw;
+}
+
+button:hover {
+    background-color: white;
+    opacity: 0.3;
+}
