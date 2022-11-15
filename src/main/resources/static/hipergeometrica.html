@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/basic.css">
+    <link rel="stylesheet" href="css/hipergeometrica.css">
+    <script src="js/hipergeometrica.js"></script>
+    <title>HiperGeométrica</title>
+</head>
+<body>
+    <h1>HiperGeométrica</h1>
+    <main>
+        <div class="div-ingreso">
+            <div class="div-input">
+                <label for="numeron1">Ingrese numero N:</label>
+                <input type="texto" name="numeron1" id="numeron1">
+            </div>
+            <div class="div-input">
+                <label for="numeron2">Ingrese numero n :</label>
+                <input type="texto" name="numeron2" id="numeron2">
+            </div>
+            <div class="div-input">
+                <label for="numerox1">Ingrese numero X:</label>
+                <input type="texto" name="numerox1" id="numerox1">
+            </div>
+            <div class="div-input">
+                <label for="numerox2">Ingrese numero x :</label>
+                <input type="texto" name="numerox2" id="numerox2">
+            </div>
+            <div class="div-boton-calcular">
+                <button class="boton-diseño" onclick="calcularhg()">Calcular</button>
+            </div>
+        </div>
+        <div class="div-calculadora">
+            <p>P(n;x)=<span id="probabilidadhg"></span></p>
+        </div>
+    </main>
+</body>
+</html>

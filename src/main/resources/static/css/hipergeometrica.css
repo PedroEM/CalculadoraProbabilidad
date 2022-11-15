@@ -1,0 +1,21 @@
+.div-input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 1vh;
+}
+
+.div-input input{
+    width: 20px;
+    height: 15px;
+}
+
+.div-boton-calcular {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+button {
+    padding: 0.7vw;
+}

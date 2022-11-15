@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    color: blue;
+    font-size: 18px;
+}
+
+.boton-diseño {
+    color: blue;
+    background-color: transparent;
+    border: 1px solid blue;
+    border-radius: 30%; 
+}
+
+.boton-diseño:hover {
+    background-color: white;
+    opacity: 0.3;
+}

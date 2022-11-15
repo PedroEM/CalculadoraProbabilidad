@@ -1,0 +1,13 @@
+main {
+    margin: 5vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10vw;
+    border: 1px solid blue;
+}
+
+button {
+    margin: 10vh;
+    padding: 1.2vw; 
+}
