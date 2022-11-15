@@ -1,3 +1,9 @@
 function calcularhg(){
-    document.getElementById("probabilidadhg").textContent = "24";
+    var texto = document.getElementById("numeron1").value
+    texto = parseInt(texto,10);
+    if (isNaN(texto)){
+        window.alert("EIngrese solo numeros enteros");
+    }else{
+        
+    }
 }
